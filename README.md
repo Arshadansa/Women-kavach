@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+Features
+Mobile Application
+The mobile application includes the following features:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Triggered SOS feature that sends the woman's current location, device battery status, activated time and date, device speed, 30 seconds of audio and video recording, and real-time photos clicked from both front and back cameras to the server. 🚨📌📷🎥
 
-## Available Scripts
+Voice-activated and shake-activated SOS. 🗣️📳🔊
 
-In the project directory, you can run:
+In-app safety tips and an option to call the nearest police station directly without dialing 100. 📚📞🚔
 
-### `npm start`
+GPS tracking, device speed tracking, and battery percentage monitoring. 🌍🚀🔋
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Panic button accessible via in-app and physical (volume buttons) options. ⚠️🆘🔘
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Emergency dialer containing all emergency numbers of India. 🆘📞🇮🇳
 
-### `npm test`
+Ability to record audio and video for case authenticity. 📹🔉🔊
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Web Application
+The web application is designed for the police and includes the following features:
 
-### `npm run build`
+Nearest police station dashboard receives a notification with a beep sound when an SOS is activated by the woman with her fetched details. 📡🔔🚓
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Real-time location, speed, Aadhar details, and a photo of the woman with a tracking code (unique ID and QR Code) are provided to the police. 📍🏍️📋📸
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Scanning the QR Code provided by the dashboard enables the police to retrieve the
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+woman's information on their mobiles, making tracking easier. 📲🔍🚨
 
-### `npm run eject`
+Server checks for the authenticity of the case with the audio and video recordings received. ✅🎙️🎥
+Technology Stack
+Mobile Application
+The following technologies were used to develop the mobile application:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Android Studio: an integrated development environment (IDE) used to develop Android applications. 📱🔧
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Firebase: a mobile and web application development platform provided by Google. 🌐🔥
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Languages: Java, XML, and JavaScript were used to develop the mobile application. ☕📄🖥️
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+APIs: Google Maps API was used to integrate maps and location-based services. 🗺️📍
 
-## Learn More
+Web-based Application
+The following technologies were used to develop the web-based application:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React JS: a JavaScript library used for building user interfaces. ⚛️🌐
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Node JS: a JavaScript runtime built on Chrome's V8 JavaScript engine. 🖥️🔧
 
-### Code Splitting
+Firebase: a mobile and web application development platform provided by Google. 🌐🔥
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Languages: JavaScript, CSS, and SASS were used to develop the web-based application. 📄🎨💻
 
-### Analyzing the Bundle Size
+APIs: QR Code API and Google Maps API were used to integrate QR code scanning and maps and location-based services. 📷🗺️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is a powerful solution aimed at ensuring the safety of women by providing them with essential features and tools. By utilizing the mobile and web applications, users can access immediate assistance in emergency situations and enable the police to respond effectively. The technology stack chosen enables the seamless development and integration of various functionalities, ensuring a robust and reliable safety application.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
